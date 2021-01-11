@@ -1,0 +1,23 @@
+{
+    "Mummy": {
+        "checkpoints": [
+            {
+                "steps": 200012,
+                "file_path": "results\\Mummy\\Mummy\\Mummy-200012.onnx",
+                "reward": 0.9678089886568906,
+                "creation_time": 1610351948.80805
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 200012,
+            "file_path": "results\\Mummy\\Mummy.onnx",
+            "reward": 0.9678089886568906,
+            "creation_time": 1610351948.80805
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.24.0.dev0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
