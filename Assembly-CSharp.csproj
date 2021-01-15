@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CraneAgent.cs" />
     <Compile Include="Assets\Scripts\MummyAgent.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -248,23 +249,23 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Interactive.Async">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+    <Reference Include="System.IO.Abstractions.TestingHelpers">
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>C:/src/ML-Test/Library/PackageCache/com.unity.ml-agents@1.0.6/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -612,67 +613,67 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.MacBLAS">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.iOSBLAS">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.CommunicatorObjects">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.BurstBLAS">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.Editor">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents">
-      <HintPath>C:/Users/movie/Desktop/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/src/ML-Test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
